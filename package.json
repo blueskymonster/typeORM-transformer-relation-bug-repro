@@ -1,0 +1,16 @@
+{
+  "name": "relation-loader-issue",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "type": "commonjs",
+  "dependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "ts-node": "^10.5.0",
+    "typeorm": "^0.2.43"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  }
+}
