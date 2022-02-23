@@ -14,3 +14,6 @@ column in postgres.
 
 Observe the _parameters_ printed in the debug for the final select.
 They are being passed to the sql driver raw, without having been transformed.
+
+The parameter value is `'"1"'` instead of the expected `1` because the transformer
+was not executed on the value.
